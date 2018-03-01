@@ -47,7 +47,7 @@
 		<!-- INSERT HEADER -->
 		<div id="overall" align="center">
 			<div id="overHeader">
-				<!--<div id="languageDiv"><a id="languageText" href="estimatesF.html">Français</a></div>-->
+				<!--<div id="languageDiv"><a id="languageText" href="estimatesF.html">FranÃ§ais</a></div>-->
 				<script type="text/javascript" src="headerDivs.js" onload="loadImages(2);"></script>
 			</div>
 			<div id="bannerDiv" class="center">
@@ -152,14 +152,14 @@
 					<img id="topPic" src="picEstimates.png"> </img>
 					<div id="tableButton" class="inWidgetButtonLight" onmouseover="lightInWidgetButtonMouseOver(this);" onmouseout="lightInWidgetButtonMouseOut(this);" onclick="loadTablePage()"><p id="tableButtonText">Full Price Table</p></div>
 					<div id="topTextDiv">
-						<p id="topText1">Curious as to how Revived works? It’s simple. If you have used technology, we’re willing to buy
+						<p id="topText1">Curious as to how Revived works? It\'s simple. If you have used technology, we\'re willing to buy
 						it! Check out the calculator we\'ve put together above. Just put in what you have and it\'ll get the current market value of the item!
-						If you have anything which doesn\'t appear, don’t hesitate to <a href="contactUs.html">contact us</a> and we’ll get back to you right away
+						If you have anything which doesn\'t appear, don\'t hesitate to <a href="contactUs.html">contact us</a> and we\'ll get back to you right away
 						with a quote.</p>
-						<p if="topText2">We welcome all, businesses and individuals, to check us out and contact us. If you’re local (near
-						our headquarters in Montreal) we’ll try our best to come to you! Every item dealt with is inspected
-						to make sure it’s functional and matches its description. If so, we promise to pay you the offered rate
-						through your preferred means (cash, check or PayPal). Before passing on your phone, we’ll also wipe its
+						<p if="topText2">We welcome all, businesses and individuals, to check us out and contact us. If you\'re local (near
+						our headquarters in Montreal) we\'ll try our best to come to you! Every item dealt with is inspected
+						to make sure it\'s functional and matches its description. If so, we promise to pay you the offered rate
+						through your preferred means (cash, check or PayPal). Before passing on your phone, we\'ll also wipe its
 						memory clean.</p>
 					</div>
 				</div>
