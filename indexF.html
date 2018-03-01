@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Sell your used cell phones and other technology to Revived! Get a quote at current market rates." />
+		<title>!!!Revived - Give your Phone a Second Life</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<script type="text/javascript" src="bannerScript.js"></script>
+		<script type="text/javascript" src="headerScriptF.js"></script>
+		<script type="text/javascript" src="generalScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="headerStyles.css" />
+		<link rel="stylesheet" type="text/css" href="bannerStyles.css" />
+		<link rel="stylesheet" type="text/css" href="general.css" />
+		<link rel="stylesheet" type="text/css" href="footerStyles.css" />
+		<link rel="stylesheet" type="text/css" href="lowerHomeStyles.css" />
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="headerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="bannerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="generalIE.css" />
+			<link rel="stylesheet" type="text/css" href="footerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="lowerHomeStylesIE.css" />	
+		<![endif]-->
+		
+		<style type="text/css">
+			#overall{
+				text-align:left;
+			}
+			#overHeader{
+				position:relative;
+				margin:auto;
+				width:1000px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="overall" align="center">
+			<div id="overHeader">
+				<div id="languageDiv"><a id="languageText" href="index.html">English</a></div>
+				<script type="text/javascript" src="headerDivsF.js" onload="loadImages(1);"></script>
+			</div>
+			<div id="banners">
+				<div id="ubanners" onmouseover="fadeIn(document.getElementById('bannerButtonDiv'));" onmouseout="fadeOut(document.getElementById('bannerButtonDiv'));" class="center">
+					<div id="bannerButtonDiv" class="hidden">
+						<div id="leftBannerButton" onmouseover="fullOpacity(this)" onmouseout="point7opacity(this)" onClick="previousBannerFromButton();"><h1 id="bannerButtonTextLeft"><</h1></div>
+						<div id="rightBannerButton" onmouseover="fullOpacity(this)" onmouseout="point7opacity(this)" onClick="nextBannerFromButton();"><h1 id="bannerButtonTextRight">></h1></div>
+					</div>
+					<img id="bannerMain1" src="banner1F.png" class="visible"></img>
+					<img id="bannerMain2" src="banner2F.png" class="hidden" ></img>
+					<img id="bannerMain3" src="banner3F.png" class="hidden" ></img>
+					<img id="bannerMain4" src="banner4F.png" class="hidden" ></img>
+					<img id="bannerMain5" src="banner5F.png" class="hidden" ></img>
+				</div>
+			</div>
+			<div id="centralSection">
+				<div id="ucentralSection" class="center">
+					<div id="topRightBox" class="widget">
+						<div id="topRightBoxLeft">
+							<img id="boxes" src="boxes.png"></img>
+						</div>
+						<div id="topRightBoxRight">
+							<p id="upgradeText">!!!Get access to the latest tech, without paying the usual upgrade cost - we take your old phone and give you a new one!</p>
+							<div id="upgradeBoxButton" align="center" class="inWidgetButtonLight" ><!--onmouseover="lightInWidgetButtonMouseOver(this);" onmouseout="lightInWidgetButtonMouseOut(this);" onclick="loadUpgradeProgram();"--><p id="upgradeBoxButtonText">!!!Upgrade With Revived</p></div>
+						</div>
+					</div>
+					<div id="bottomRightBox" class="widget">
+						<div id="bottomRightBoxLeft">
+							<p id="estimatesText">!!!Planning on selling your stock of used phones? Get a rundown on how it all works and enter your inventory to get an estimate at current market rates.</p>
+							<div id="estimatesBoxButton" align="center" class="inWidgetButtonLight" onmouseover="lightInWidgetButtonMouseOver(this);" onmouseout="lightInWidgetButtonMouseOut(this);" onclick="loadEstimates();"><p id="estimatesBoxButtonText">!!!Get An Estimate</p></div>
+						</div>
+						<div id="bottomRightBoxRight">
+							<img id="phoneStack" src="phoneStack.png"></img>
+						</div>
+					</div>
+					<div id="leftBox" class="widget">
+						<div id="leftBoxRule"></div>
+						<div id="leftBoxTopPicDiv">
+							<img id="leftBoxTopPic" src="sidePhone.png"></img>
+						</div>
+						<div id="leftBoxBottomPicDiv">
+							<img id="leftBoxBottomPic" src="leaves.png"></img>
+						</div>
+						<div id="leftBoxTopTextDiv">
+							<p id="leftBoxTopText">!!!Revived purchases used and broken cell phones, and gives them a second life. We focus on businesses, giving them the money to ensure they stay on the cutting edge when they trade in their old tech. Nonetheless, we are pleased to serve individuals as well!</p>
+						</div>
+						<div id="leftBoxBottomTextDiv">
+							<p id="leftBoxBottomText">!!!Take a look around! We're green and advocate sustainable consumerism and development. Pitch in towards who we support.</p>
+						</div>
+						<div id="leftBoxBottomButton" class="inWidgetButtonLight" onmouseover="lightInWidgetButtonMouseOver(this);" onmouseout="lightInWidgetButtonMouseOut(this);" onclick="loadInitiatives();"><p id="leftBoxBottomButtonText">!!!Initiatives</p></div>
+					</div>
+					<div id="comingSoonBox" align="center"><p id="comingSoonText"><b>!!!Coming Soon</b></p></div>
+				</div>
+			</div>
+			<script type="text/javascript" src="footer.js"></script>
+		</div>
+	</body>
+</html>

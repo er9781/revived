@@ -1,0 +1,74 @@
+#overall{
+	width:100%;
+	height:970px;
+	text-align:left;
+}
+#bannerDiv{
+	width:1000px;
+	height:220px;
+	background:linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-o-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-moz-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-webkit-gradient(linear, center top, center bottom, from(#0C0C0C), to(#1C1C1C));
+	background:-webkit-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-ms-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0C0C0C', endColorstr='#1C1C1C');
+	border-radius:5px;
+	box-shadow:4px 4px 5px #222222;
+	position:relative;
+}
+#ubannerDiv{
+	width:1000px;
+	heigth:100%;
+	position:relative;
+	top:10px;
+}
+#banner{
+	width:970px;
+	heigth:200px;
+	position:relative;
+	left:30px;
+}
+#centerDiv{
+	width:1000px;
+	height:710px;
+	position:relative;
+}
+#centerDivMain{
+	margin:auto;
+	width:1000px;
+	height:630px;
+	position:relative;
+	top:40px;
+}
+#topPic{
+	position:absolute;
+	left:30px;
+	top:45px;
+	border-radius:8px;
+}
+#bottomPic{
+	position:absolute;
+	right:30px;
+	top:360px;
+}
+#horizontalRule{
+	position:absolute;
+	height:1px;
+	width:900px;
+	background:black;
+	top:340px;
+	left:50px;
+}
+#topTextDiv{
+	width:500px;
+	position:absolute;
+	left:475px;
+	top:40px;
+}
+#bottomTextDiv{
+	width:500px;
+	position:absolute;
+	left:30px;
+	top:345px;
+}

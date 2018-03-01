@@ -1,0 +1,109 @@
+<html>
+<!-- THIS IS THE ESTIMATES PAGE -->
+	<head>
+		<title>Revived</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="headerStyles.css" />
+		<script type="text/javascript" src="headerScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="general.css" />
+		<link rel="stylesheet" type="text/css" href="footerStyles.css" />
+		<script type="text/javascript" src="generalScript.js"></script>
+		<script type="text/javascript" src="estimatesScript.js"></script>
+		
+		<style type="text/css">
+		
+			#overall{
+				position:relative;
+				height:600px;
+				width:100%;
+				background:whitesmoke;
+			}
+			#bannerDiv{
+				width:1000px;
+				height:220px;
+				background:linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-o-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-moz-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-webkit-gradient(linear, center top, center bottom, from(#0C0C0C), to(#1C1C1C));
+	background:-webkit-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-ms-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+				border-radius:5px;
+				box-shadow:4px 4px 5px #222222;
+				position:relative;
+			}
+		
+			#ubannerDiv{
+				width:1000px;
+				heigth:100%;
+				position:relative;
+				top:10px;
+			}
+		
+			#banner{
+				width:970px;
+				heigth:200px;
+				position:relative;
+				left:15px;
+			}
+			#centerDiv{
+				position:relative;
+				height:530px;
+				width:1000px;
+				top: 20px;
+			}
+			#uCenterDiv{
+				height:100px;
+				width:1000px;
+				top: 20px;
+				position:relative;
+			}
+			#priceTable{
+				background:grey;
+				top: 10px;
+				position: relative;
+				width:980px;
+				left:0px;
+			}
+			td{
+				text-align:center;
+				background:white;
+				padding:10px;
+				padding-top:15px;
+				padding-bottom:15px;
+			}
+			#tableTextDiv{
+				width:890px;
+				position:absolute;
+				left:50px;
+				top:15px;
+				z-index:100;
+			}
+			#tableDiv{
+				position:relative;
+			}
+			#footer{
+				position:relative;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<script type="text/javascript" src="headerDivs.js" onload="loadImages(0);"></script>
+		<div id="overall">
+			<div id="bannerDiv" class="center">
+				<div id="ubannerDiv" class="widgets">
+					<img id="banner" src="bannerEstimates.png"></img>
+				</div>
+			</div>
+			<div id="centerDiv" class="center">
+				<div id="uCenterDiv" class="widget">
+					<div id="tableTextDiv">
+						<p id="tableText">This table consists of the most popular makes and models, if you like the rate (which we’re sure you will), <a href="contactUs.html">send us a message</a> and we’ll get in touch! For anything that isn’t expressly listed, we’re almost certainly still interested, just <a href="contactUs.html">contact us</a> and we’ll get back to you immediately.</p>
+					</div>					
+					<div id="tableDiv"></div>
+				</div>
+			</div>
+			<script type="text/javascript" src="footer.js"></script>
+			<script type="text/javascript">buildTable();</script>
+		</div>
+	</body>

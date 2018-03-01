@@ -1,0 +1,202 @@
+#centerDiv{background-color:whitesmoke;width:100%;height:500px;}
+#ucentralSection{background:none;width:1000px;height:500px;position:relative;top:20px;}
+
+#responseDiv{
+	position:relative;
+	top:-10px;
+}
+#submitDiv{
+	position:relative;
+	top:-10px;
+}
+
+#topRightBox{
+	width:490px;
+	height:200px;
+	position:absolute;
+	top:20px;
+	left:515px;
+	z-index:1;
+}
+#bottomRightBox{
+	width:490px;
+	height:200px;
+	position:absolute;
+	top:255px;
+	left:515px;
+}
+#leftBox{
+	width:495px;
+	height:435px;
+	position:absolute;
+	top:20px;
+}
+
+#topRightBoxLeft{
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	width:125px;
+	height:200px;
+}
+#topRightBoxRight{
+	position:relative;
+	top:-265px;
+	height:200px;
+	width:360;
+	left:125px;
+}
+#boxes{
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	height:200px;
+	width:125px;
+}
+#upgradeText{
+	font-family:verdana;
+	font-size:15px;
+	position:relative;
+	left:45px;
+	top:85px;
+	width:290px;
+}
+#upgradeBoxButton{
+	width:280px;
+	height:30px;
+	position:relative;
+	top:110px;
+	left:40px;
+	cursor:default;
+}
+#upgradeBoxButtonText{
+	position:relative;
+	font-size:15px;
+	top:-10px;
+}
+#comingSoonBox{
+	width:170px;
+	height:30px;
+	background:#222222;
+	font-family:verdana;
+	font-size:18px;
+	color:white;
+	position:absolute;
+	top:-5px;
+	left:815px;
+	border-radius:8px;
+}
+#comingSoonText{
+	position:relative;
+	top:-15px;
+}
+#bottomRightBoxLeft{
+	width:360px;
+	height:200px;
+	position:absolute;
+}
+#bottomRightBoxRight{
+	height:200px;
+	width:125px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	position:absolute;
+	left:365px;
+}
+#phoneStack{
+	width:125px;
+	height:200px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+}
+#estimatesText{
+	position:absolute;
+	top:30px;
+	left:40px;
+	font-family:verdana;
+	font-size:15px;
+	width:290px;
+}
+#estimatesBoxButton{
+	width:280px;
+	height:30px;
+	position:relative;
+	top:150px;
+	left:40px;
+}
+#estimatesBoxButtonText{
+	position:relative;
+	font-size:15px;
+	top:-10px;
+}
+#leftBoxTopPicDiv{
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	width:125px;
+	height:175px;
+	position:absolute;
+	top:20px;
+}
+#leftBoxTopPic{
+	width:125px;
+	height:175px;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+#leftBoxBottomPicDiv{
+	width:125px;
+	height:175px;
+	position:absolute;
+	right:0px;
+	top:240px;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+}
+#leftBoxBottomPic{
+	width:125px;
+	height:175px;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+}
+#leftBoxRule{
+	width:390px;
+	height:1px;
+	position:absolute;
+	top:217px;
+	left:50px;
+	background:black;
+}
+#test{
+	width:490px;
+	position:absolute;
+	top:190px;
+}
+#leftBoxTopTextDiv{
+	position:absolute;
+	left:150px;
+	top:30px;
+	width:300px;
+}
+#leftBoxTopText{
+	font-size:15px;
+}
+#leftBoxBottomTextDiv{
+	position:absolute;
+	top:250px;
+	left:30px;
+	width:305px;
+}
+#leftBoxBottomText{
+	font-size:15px;
+}
+#leftBoxBottomButton{
+	width:280px;
+	height:30px;
+	position:absolute;
+	top:380px;
+	left:45px;
+}
+#leftBoxBottomButtonText{
+	position:relative;
+	left:100px;
+	top:-10px;
+	font-size:15px;
+}

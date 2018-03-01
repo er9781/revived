@@ -1,0 +1,389 @@
+#overall{
+	height:600px;
+	width:100%;
+	background:whitesmoke;
+	text-align:left;
+	margin:0 auto;
+}
+#centerDiv{
+	height:515px;
+	width:1000px;
+	position:relative;
+}
+#uCenterDiv{
+	height:300px;
+	width:1000px;
+	position:relative;
+	top:40px;
+}
+#contactUsButtonText{
+	position:relative;
+	top:-10px;
+	left:10px;
+}
+#calcWidgetDiv{
+	position:relative;
+	top:20px;
+	width:1000px;
+	/*height:140px;*/
+	height:140px;
+}
+#contactUsButton{
+	display:none;
+	position:absolute;
+	top:55px;
+	left:760px;
+	width:120px;
+	height:28px;
+}
+#valueDiv{
+	display:none;
+	height:350px;
+	width:1000px;
+	position:absolute;
+	top:140px;
+}
+#verticalBar{
+	width:1px;
+	height:335px;
+	position:absolute;
+	background:black;
+	left:575px;
+}
+#valueRightDiv{
+	position:absolute;
+	left:575px;
+}
+#boxesDiv{
+	position:absolute;
+	left:140px;
+	top:0px;
+}
+#boxTitlesDiv{
+	position:absolute;
+	left:30px;
+	font-family:verdana;
+	width:100px;
+}
+#boxTitle1{position:absolute;top:0px;}
+#boxTitle2{position:absolute;top:58px;}
+#boxTitle3{position:absolute;top:120px;}
+#boxTitle4{position:absolute;top:180px;}
+#nameBox,#numberBox,#emailBox,#messageBox{
+	box-shadow: 1px 1px 5px #888;
+	background:linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-o-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-moz-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-webkit-gradient(linear, lower left, upper right, from(whitesmoke), to(#EDEDED));
+	background:-webkit-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-ms-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#EDEDED');
+	border-radius:3px;
+	padding:6px;
+	margin:5px;
+	width:200px;
+	font-size:15px;
+	resize:none;
+}
+#nameBox,#numberBox,#emailBox{
+	height:20px;
+}
+#valueBox{display:none;position:absolute;}
+#messageBox{
+	height:80px;
+}
+#submitButtonForm{
+	width:100px;
+	height:30px;
+	font-family:verdana;
+	font-size:14px;
+	position:absolute;
+	left:125px;
+}
+#tableButton{
+	width:230px;
+	height:30px;
+	position:absolute;
+	left:700px;
+	top:15px;
+}
+#tableButtonText{
+	position:absolute;
+	left:55px;
+	top:-9px;
+}
+#bannerDiv{
+	width:1000px;
+	height:220px;
+	background:linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-o-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-moz-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-webkit-gradient(linear, center top, center bottom, from(#0C0C0C), to(#1C1C1C));
+	background:-webkit-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-ms-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0C0C0C', endColorstr='#1C1C1C');
+	border-radius:5px;
+	behavior:url(border-radius.php);
+	box-shadow:4px 4px 5px #222222;
+	position:relative;
+}
+#ubannerDiv{
+	width:1000px;
+	heigth:100%;
+	position:relative;
+	top:10px;
+}
+#banner{
+	width:970px;
+	heigth:200px;
+	position:absolute;
+	left:15px;
+}
+#topPic{
+	width:230px;
+	height:230px;
+	position:absolute;
+	left:700px;
+	top:55px;
+	border-radius:5px;
+	behavior:url(border-radius.php);
+	box-shadow:1px 1px 2px #222222;
+}
+#topTextDiv{
+	position:absolute;
+	width:600px;
+	top:15px;
+	left:50px;
+}
+#horizontalRule{
+	width:900px;
+	position:absolute;
+	top:185px;
+	background:black;
+	height:1px;
+	left:50px;
+}
+#calculatorDiv{
+	background:white;
+	width:700px;
+	height:50px;
+	position:absolute;
+	top:80px;
+	left:50px;
+}
+select,input{
+	width:120px;
+	height:30px;
+	background:linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-o-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-moz-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-webkit-gradient(linear, lower left, upper right, from(whitesmoke), to(#EDEDED));
+	background:-webkit-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-ms-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#EDEDED');
+	
+	font-family:verdana;
+	font-size:20px;
+	border-radius:3px;
+}
+#makeDropList{
+	position:absolute;
+	top:10px;
+	left:0px;
+	width:120px;
+}
+#modelDropList{
+	position:absolute;
+	left:150px;
+	top:10px;
+	width:260px;
+}
+#versionDropList{
+	position:absolute;
+	left:440px;
+	top:10px;
+	width:120px;
+}
+#qualityDropList{
+	position:absolute;
+	left:590px;
+	top:10px;
+	width:120px;
+}
+#quantityFlawlessBox{
+	position:absolute;
+	top:79px;
+	left:0px;
+	width:120px;
+}
+#quantityGoodBox{
+	position:absolute;
+	top:79px;
+	left:140px;
+	width:120px;
+}
+#quantityBrokenBox{
+	position:absolute;
+	top:79px;
+	left:280px;
+	width:120px;
+}
+#quantityDestroyedBox{
+	position:absolute;
+	top:79px;
+	left:420px;
+	width:120px;
+}
+#flawlessLabel{
+	position:absolute;
+	top:59px;
+	left:0px;
+}
+#goodLabel{
+	position:absolute;
+	top:59px;
+	left:140px;
+}
+#brokenLabel{
+	position:absolute;
+	top:59px;
+	left:280px;
+}
+#destroyedLabel{
+	position:absolute;
+	top:59px;
+	left:420px;
+}
+#newLineButton{
+	position:absolute;
+	left:700px;
+	top:70px;
+	width:200px;
+	height:50px;
+}
+#newLineButtonText{
+	position:relative;
+	left:50px;
+}
+#submitButton{
+	position:absolute;
+	top:10px;
+	left:760px;
+	width:120px;
+	height:28px;
+}
+#submitButtonText{
+	position:relative;
+	left:32px;
+	top:-10px;
+}
+#valueText1{
+	position:absolute;
+	left:20px;
+	top:10px;
+	font-size:20px;
+	font-family:verdana;
+}
+#valueText2{
+	position:absolute;
+	left:90px;
+	top:100px;
+	width:400px;
+	font-family:verdana;
+	font-size:38px;
+	text-align:center;
+	color:green;
+}
+#valueText3{
+	position:absolute;
+	top:260px;
+	left:30px;
+	width:500px;
+}
+#calculatorTextDiv{
+	position:absolute;
+	top:20px;
+	left:50px;
+}
+#priceTable{
+	background:grey;
+	top:350px;
+	position: relative;
+	width:980px;
+	left:0px;
+}
+td{
+	text-align:center;
+	background:white;
+	padding:10px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+/*response shit*/
+
+#responseDiv{
+	width:1000px;
+	height: 60px;
+	position: relative;
+}
+#uresponseDiv{
+	width:1000px;
+	height: 40px;
+	position: relative;
+	top:15px;
+	background:#e75858;
+	background:linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-o-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-moz-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-webkit-gradient(linear, center left, center right, from(#e75858), to(#e74444));
+	background:-webkit-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-ms-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e75858', endColorstr='#e74444');
+	border:solid;
+	border-width:1px;
+	border-color:white;
+}
+#responseMissing{
+	position:absolute;
+	left:190px;
+	top:-10px;
+	color:white;
+	font-family:verdana;
+	font-size:18px;
+	
+}
+#responseEmail{
+	position:absolute;
+	left:330px;
+	top:-10px;
+	color:white;
+	font-family:verdana;
+	font-size:18px;
+}
+
+#usubmitDiv {
+	width:1000px;
+	height: 40px;
+	position: relative;
+	top:15px;
+	background:#9c9c9c;
+	background:linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-o-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-moz-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-webkit-gradient(linear, center left, center right, from(#9c9c9c), to(#a6a6a6));
+	background:-webkit-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-ms-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9c9c9c', endColorstr='#a6a6a6');
+	border:solid;
+	border-width:1px;
+	border-color:white;
+}
+#responseSubmit{
+	position: absolute;
+	left:330px;
+	top:-10px;
+	color:white;
+	font-family:verdana;
+	font-size:18px;
+}

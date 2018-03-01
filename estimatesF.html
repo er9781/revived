@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<!-- THIS IS THE ESTIMATES PAGE -->
+	<head>
+		<meta name="description" content="Get an estimate for your used phone or other technology at current market rates" />
+		<title>!!!Rates - Find out what your Phone is Worth</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="headerStyles.css" />
+		<script type="text/javascript" src="headerScriptF.js"></script>
+		<link rel="stylesheet" type="text/css" href="general.css" />
+		<link rel="stylesheet" type="text/css" href="footerStyles.css" />
+		<script type="text/javascript" src="generalScript.js"></script>
+		<script type="text/javascript" src="estimatesScriptF.js"></script>
+		<link rel="stylesheet" type="text/css" href="estimatesStyles.css" />
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="headerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="bannerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="generalIE.css" />
+			<link rel="stylesheet" type="text/css" href="footerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="lowerHomeStylesIE.css" />	
+		<![endif]-->
+		
+		<style type="text/css">
+			#overall{
+				text-align:left;
+			}
+			#overHeader{
+				position:relative;
+				margin:auto;
+				width:1000px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<!-- INSERT HEADER -->
+		<div id="overall" align="center">
+			<div id="overHeader">
+				<div id="languageDiv"><a id="languageText" href="estimates.html">English</a></div>
+				<script type="text/javascript" src="headerDivsF.js" onload="loadImages(2);"></script>
+			</div>
+			<div id="bannerDiv" class="center">
+				<div id="ubannerDiv" class="widgets">
+					<img id="banner" src="bannerEstimatesF.png"></img>
+				</div>
+			</div>
+			<div id="centerDiv" class="center">
+				<div id="uCenterDiv" class="widget">
+					
+					<img id="topPic" src="picEstimates.png"> </img>
+<!--					<div id="tableButton" class="inWidgetButtonLight" onmouseover="lightInWidgetButtonMouseOver(this);" onmouseout="lightInWidgetButtonMouseOut(this);"><p id="tableButtonText">Full Price Table</p></div>-->
+					<div id="topTextDiv">
+						<p id="topText1">!!!Curious as to how Revived works? It’s simple. If you have used technology, we’re willing to buy
+						it! We’ve put together a small list below which has the most popular items at their current market
+						values, but if you have anything else, don’t hesitate to <a href="contactUs.html">contact us</a> and we’ll get back to you right away
+						with a quote.</p>
+						<p if="topText2">!!!We welcome all, businesses and individuals, to check us out and contact us. If you’re local (near
+						our headquarters in Montreal) we’ll try our best to come to you! Every item dealt with is inspected
+						to make sure it’s functional and matches its description. If so, we promise to pay you the offered rate
+						through your preferred means (cash, check or PayPal). Before passing on your phone, we’ll also wipe its
+						memory clean.</p>
+					</div>
+
+					<div id="horizontalRule"></div>
+					<div id="tableTextDiv">
+						<p id="tableText">!!!This table consists of the most popular makes and models, if you like the rate (which we’re sure you will), <a href="contactUs.html">send us a message</a> and we’ll get in touch! For anything that isn’t expressly listed, we’re almost certainly still interested, just <a href="contactUs.html">contact us</a> and we’ll get back to you immediately.</p>
+					</div>
+					<div id="tableDiv"></div><!--table is build at bottom of document-->
+					
+<!--					<div id="calculatorDiv">
+						<div id="submitButton" class="inWidgetButtonLight" onclick="submitForm();" onmouseover="lightInWidgetButtonMouseOver(this);" onmouseout="lightInWidgetButtonMouseOut(this);"><p id="submitButtonText">Submit</p></div>
+						<div id="newLineButton" class="inWidgetButtonLight" onclick="addNewRow();" onmouseover="lightInWidgetButtonMouseOver(this);" onmouseout="lightInWidgetButtonMouseOut(this);"><p id="newLineButtonText">+ New Row</p></div>
+						<form id="calculatorRow">
+							<select id="makeDropList" onchange="updateModelDropList();">
+								<option value="1">Iphone</option>
+								<option value="2">Blackberry</option>
+								<option value="3">Samsung</option>
+							</select>
+							<select id="modelDropList" onchange="updateVersionDropList();">
+								<script type="text/javascript">updateModelDropList();</script>
+							</select>
+							<select id="versionDropList">
+								<script type="text/javascript">updateVersionDropList();</script>
+							</select>
+							<label id="flawlessLabel"># Flawless</label>
+							<label id="goodLabel"># Good</label>
+							<label id="brokenLabel"># Broken</label>
+							<label id="destroyedLabel"># Destroyed</label>
+							<input type="text" id="quantityFlawlessBox" value="0"></input>
+							<input type="text" id="quantityGoodBox" value="0"></input>
+							<input type="text" id="quantityBrokenBox" value="0"></input>
+							<input type="text" id="quantityDestroyedBox" value="0"></input>
+						</form>
+						<script type="text/javascript">addNewRow();</script>
+					</div>-->
+				</div>
+			</div>
+			
+			<!--INSERT FOOTER-->
+			<script type="text/javascript" src="footer.js"></script>
+			<script type="text/javascript">buildTable();</script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+body{margin:0;padding:0;height:100%;width:100%;font-family:verdana;background:whitesmoke;text-align:centre;width:100%;}
+.center{margin-left:auto;margin-right:auto;margin-left:0 auto;margin-right:auto;}
+
+.widget{
+	background:white;
+	-moz-box-shadow: 10px 10px 5px #9a9a9a;
+	box-shadow: 1px 1px 5px #9a9a9a;
+	border-radius:8px;
+	border:solid;
+	border-width:1px;
+	border-color:#dedede;
+}
+
+.inWidgetButton{
+	background:linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-o-linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-moz-linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-webkit-gradient(linear, center bottom, center top, from(#191717), to(#222222));
+	background:-webkit-linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-ms-linear-gradient(bottom, #191717 50%, #222222 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#191717', endColorstr='#222222');
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	border-radius:6px;
+	behavior:url(border-radius.php);
+	box-shadow:3px 3px 5px #888;
+	opacity:0.9;
+	color:whitesmoke;
+	cursor:pointer;
+	font-family:verdana;
+}
+
+.inWidgetButtonLight{
+	background:linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-o-linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-moz-linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-webkit-gradient(linear, center bottom, center top, from(#191717), to(#222222));
+	background:-webkit-linear-gradient(bottom, #191717 50%, #222222 50%);
+	background:-ms-linear-gradient(bottom, #191717 50%, #222222 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#191717', endColorstr='#222222');
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	border-radius:6px;
+	behavior:url(border-radius.php);
+	box-shadow:3px 3px 5px #888;
+	opacity:0.9;
+	color:whitesmoke;
+	cursor:pointer;
+	font-family:verdana;
+	opacity:0.6;
+}
+
+#languageDiv{
+	position:absolute;
+	left:930px;
+	top:40px;
+	z-index:200;
+}
+
+#languageText{
+	color:black;
+	text-decoration:none;
+}
+#languageText:hover{
+	text-decoration:underline;
+}

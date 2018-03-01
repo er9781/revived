@@ -1,0 +1,97 @@
+.hidden{
+	opacity:0;
+	-webkit-transition:opacity 1s;
+	-moz-transition:opacity 1s;
+	-o-transition:opacity 1s;
+	-transition:opacity 1s;
+}
+
+.visible{
+	opacity:1;
+	-webkit-transition:opacity 1s;
+	-moz-transition:opacity 1s;
+	-o-transition:opacity 1s;
+	-transition:opacity 1s;
+}
+
+.visibleFast{
+	opacity:1;
+	-webkit-transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s;
+	-o-transition:opacity 0.5s;
+	-transition:opacity 0.5s;
+}
+.hiddenFast{
+	opacity:0;
+	-webkit-transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s;
+	-o-transition:opacity 0.5s;
+	-transition:opacity 0.5s;
+}
+
+#banners{
+	background-color:#F5F5F5;
+	height:370px;
+}
+#ubanners{
+	background:linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-o-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-moz-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-webkit-gradient(linear, center top, center bottom, from(#0C0C0C), to(#1C1C1C));
+	background:-webkit-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	background:-ms-linear-gradient(120deg, #0C0C0C 35%, #1C1C1C 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0C0C0C', endColorstr='#1C1C1C');
+	width:1000px;
+	height:350px;
+	border-radius:5px;
+	behavior:url(border-radius.php);
+	-moz-box-shadow:4px 4px 5px #222222;
+	box-shadow:4px 4px 5px #222222;
+	position:relative;
+}
+
+#bannerMain1,#bannerMain2,#bannerMain3,#bannerMain4,#bannerMain5{
+	margin:auto;
+	width:970px;
+	height:320px;
+	position:absolute;
+	top:15px;
+	left:15px;
+}
+
+#bannerButtonDiv{
+	width:1000px;
+	height:350px;
+	position:absolute;
+}
+
+#leftBannerButton,#rightBannerButton{
+	width:40px;
+	height:50px;
+	background:#FFFFFF;
+	position:absolute;
+	top:150px;
+	cursor:pointer;
+	z-index:2;
+	opacity:0.5;
+}
+#rightBannerButton{
+	left:960px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	behavior:url(border-radius.php);	
+}
+#leftBannerButton{
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	behavior:url(border-radius.php);
+}
+#bannerButtonTextLeft,#bannerButtonTextRight{
+	color:#222222;
+	position:relative;
+	top:-24px;
+	font-size:40px;
+	font-family:none;
+}
+#bannerButtonTextLeft{left:8px;}
+#bannerButtonTextRight{left:10px;}

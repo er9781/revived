@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<!-- THIS IS THE CONTACT US PAGE -->
+	<head>
+		<meta name="description" content="!!!Find out how to contact Revived or send us a quick message." />
+		<title>!!!Contact-Us - Revived Phones</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="headerStyles.css" />
+		<script type="text/javascript" src="headerScriptF.js"></script>
+		<link rel="stylesheet" type="text/css" href="general.css" />
+		<link rel="stylesheet" type="text/css" href="footerStyles.css" />
+		<script type="text/javascript" src="generalScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="contactUsStyles.css" />
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="headerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="bannerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="generalIE.css" />
+			<link rel="stylesheet" type="text/css" href="footerStylesIE.css" />
+			<link rel="stylesheet" type="text/css" href="lowerHomeStylesIE.css" />	
+		<![endif]-->
+
+		<style type="text/css">
+			#overall{
+				text-align:left;
+			}
+			#overHeader{
+				position:relative;
+				margin:auto;
+				width:1000px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<!-- INSERT HEADER -->
+		<div id="overall" align="center">
+			<div id="overHeader">
+				<div id="languageDiv"><a id="languageText" href="contactUs.html">English</a></div>
+				<script type="text/javascript" src="headerDivsF.js" onload="loadImages(4);"></script>
+			</div>
+			<div id="largeCenterSection" class="center">
+				<div id="mainDiv" class="widget">
+					<div id="verticalRule"></div>
+					<div id="contactLeftDiv">
+						<h5 id="title">!!!Contact Information</h5>
+						<div id="blurbAboveForm">
+							!!!Feel free to enter your information here, or to drop us an email.
+							<img src="contactEmail.png" id="contactEmailAddress"></img>
+						</div>
+						<div id="boxTitlesDiv">
+							<p id="boxTitle1">!!!*Name:</p>
+							<p id="boxTitle2">!!!Company:</p>
+							<p id="boxTitle3">!!!*Phone #:</p>
+							<p id="boxTitle4">!!!*Email:</p>
+							<p id="boxTitle5">!!!Message:</p>
+						</div>
+						<div id="boxesDiv">
+							<form action="contactUsFormResponse.php" method="post">
+								<input id="nameBox" type="text" name="nameBox" size="30" /><p />
+								<input id="companyBox" type="text" name="companyBox" size="30" /><p />
+								<input id="numberBox" type="text" name="numberBox" size="30" /><p />
+								<input id="emailBox" type="text" name="emailBox" size="30" /><p />
+								<textArea id="messageBox" name="messageBox" rows="7" cols="23"></textArea><p />
+								<div id="submitButtonDiv"><input id="submitButton" type="submit" value="Submit" class="inWidgetButton" onmouseover="inWidgetButtonMouseOver(this);" onmouseout="inWidgetButtonMouseOut(this);" /></div>
+							</form>
+						</div>
+					</div>
+					<div id="mapBack">
+						<img id="map" src="map.png"></img>
+					</div>
+					<div id="address">
+						<h3 id="addressTitle" align="left">!!!Revived</h3>
+						<p>!!!Phone#: 514-576-1512</p>
+						<p>!!!405 Notre Dame East, Suite 401,<br>!!!Montreal,Canada,<br>H2Y1C9</p>
+					</div>
+				</div>
+			</div>
+			<!--INSERT FOOTER-->
+			<script type="text/javascript" src="footer.js"></script>
+		</div>
+	</body>
+</html>

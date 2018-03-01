@@ -1,0 +1,181 @@
+#overDiv{
+	width:100%;
+	height:730px;
+	background:whitesmoke;
+	text-align:left;
+}
+#largeCenterSection{
+	height:710px;
+	width:1000px;
+	position:relative;
+}
+#mainDiv{
+	position:absolute;
+	left:50px;
+	top:20px;
+	width:900px;
+	height:630px;
+}
+#map{
+	width:420px;
+	height:350px;
+}
+#mapBack{
+	position:absolute;
+	right:30px;
+	top:30px;
+}
+#contactLeftDiv{
+	width:420px;
+	height:500px;
+	position:relative;
+	left:5px;
+}
+#verticalRule{
+	width:1px;
+	height:570px;
+	position:absolute;
+	left:425px;
+	top:30px;
+	background:black;
+}
+#boxTitlesDiv{
+	position:absolute;
+	left:30px;
+	font-family:verdana;
+	top:145px;
+	width:100px;
+}
+#boxTitle1{position:absolute;top:0px;}
+#boxTitle2{position:absolute;top:58px;}
+#boxTitle3{position:absolute;top:120px;}
+#boxTitle4{position:absolute;top:180px;}
+#boxTitle5{position:absolute;top:240px;}
+#boxesDiv{
+	position:relative;
+	left:125px;
+}
+#nameBox,#companyBox,#numberBox,#emailBox,#messageBox{
+	box-shadow: 1px 1px 5px #888;
+	background:linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-o-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-moz-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-webkit-gradient(linear, lower left, upper right, from(whitesmoke), to(#EDEDED));
+	background:-webkit-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	background:-ms-linear-gradient(bottom left, whitesmoke 80%, #EDEDED 95%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#EDEDED');
+	border-radius:3px;
+	padding:6px;
+	margin:5px;
+	width:265px;
+	font-size:15px;
+	resize:none;
+}
+#submitButton{
+	position:relative;
+	left:180px;
+	width:100px;
+	height:30px;
+}
+#addressTitle{
+	font-family:verdana;
+	font-size:20px;
+	margin:0px;
+	padding-top:10px;
+	position:relative;
+	top:5px;
+}
+#address{
+	position:absolute;
+	left:450px;
+	top:375px;
+	font-family:verdana;
+}
+#title{
+	font-size:25px;
+	font-family:verdana;
+	margin:0px;
+	padding-top:15px;
+	padding-bottom:15px;
+	position:relative;
+	left:30px;
+}
+#blurbAboveForm{
+	position:relative;
+	left:30px;
+	padding-bottom:0px;
+	font-family:verdana;
+	width:300px;
+}
+#contactEmailAddress{
+	margin-top:15px;
+	margin-bottom:15px;
+	position:relative;
+	left:-2px;
+}
+
+/*Sami's shit*/
+
+#responseDiv{
+	width:900px;
+	height: 50px;
+	position: relative;
+}
+#uresponseDiv{
+	width:900px;
+	height: 40px;
+	position: relative;
+	background:#e75858;
+	background:linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-o-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-moz-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-webkit-gradient(linear, center left, center right, from(#e75858), to(#e74444));
+	background:-webkit-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	background:-ms-linear-gradient(90deg, #e75858 10%, #e74444 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e75858', endColorstr='#e74444');
+	border:solid;
+	border-width:1px;
+	border-color:white;
+}
+#responseMissing{
+	position:absolute;
+	left:140px;
+	top:-10px;
+	color:white;
+	font-family:verdana;
+	font-size:18px;
+	
+}
+#responseEmail{
+	position:absolute;
+	left:280px;
+	top:-10px;
+	color:white;
+	font-family:verdana;
+	font-size:18px;
+}
+
+#usubmitDiv {
+	width:900px;
+	height: 40px;
+	position: relative;
+	background:#9c9c9c;
+	background:linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-o-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-moz-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-webkit-gradient(linear, center left, center right, from(#9c9c9c), to(#a6a6a6));
+	background:-webkit-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	background:-ms-linear-gradient(90deg, #9c9c9c 30%, #a6a6a6 70%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9c9c9c', endColorstr='#a6a6a6');
+	border:solid;
+	border-width:1px;
+	border-color:white;
+}
+#responseSubmit{
+	position: absolute;
+	left:280px;
+	top:-10px;
+	color:white;
+	font-family:verdana;
+	font-size:18px;
+}
